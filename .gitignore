@@ -1,1 +1,26 @@
+# Environment files
+.env
+.env.*
 **/.env
+
+# Python cache files (you should NOT commit these)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django stuff
+db.sqlite3           
+media/
+staticfiles/
+
+# VS Code (if you use it)
+.vscode/
+
+# macOS junk (optional)
+.DS_Store
